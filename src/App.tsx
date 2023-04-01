@@ -2,7 +2,8 @@ import './App.css';
 import Nav from './components/Nav';
 import Hero from './components/Hero';
 import Features from './components/Features';
-import Benefits from './components/benefits';
+import Benefits from './components/Benefits';
+import Testimonials from './components/Testimonials';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Features />
       <Benefits />
+      <Testimonials />
     </div>
   );
 }

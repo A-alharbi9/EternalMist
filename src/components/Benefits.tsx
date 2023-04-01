@@ -2,7 +2,7 @@ import { TbTopologyStar3 } from 'react-icons/tb';
 
 function Benefits() {
   return (
-    <div className=" flex flex-col lg:flex-row justify-center items-center">
+    <div className=" flex flex-col lg:flex-row justify-center items-center pb-8 lg:pb-0">
       <div className=" flex flex-col lg:flex-row justify-around items-center h-auto lg:min-h-[90vh] w-auto lg:w-[85%] xl:w-[80%]">
         <div className="flex flex-col justify-between items-center h-72 mb-10 lg:mb-0">
           <div className="flex flex-col items-center justify-center">
