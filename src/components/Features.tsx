@@ -7,7 +7,7 @@ function Features() {
       <h2 className="text-3xl font-semibold my-10">What sets us apart</h2>
       <div className="flex flex-col lg:flex-row justify-around w-[80vw]">
         <img
-          src="src/assets/features_image.jpg"
+          src="../assets/features_image.jpg"
           alt="Features_image
           "
           className="h-[80%] lg:h-80 rounded-lg"

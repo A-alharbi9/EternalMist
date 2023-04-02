@@ -34,7 +34,7 @@ function Testimonials() {
           <div className=" flex flex-col justify-around items-center text-center font-light w-[70%] h-[90%]">
             <div className=" rounded-[50%]  w-16 h-16  overflow-hidden">
               <img
-                src="src/assets/testimonials_image_one.jpg"
+                src="../assets/testimonials_image_one.jpg"
                 alt="testimonials_image_one"
                 className=" w-full"
               />
@@ -55,7 +55,7 @@ function Testimonials() {
           <div className=" flex flex-col justify-around items-center text-center font-light w-[70%] h-[90%]">
             <div className=" rounded-[50%]  w-16 h-16  overflow-hidden">
               <img
-                src="src/assets/testimonials_image_two.jpg"
+                src="../assets/testimonials_image_two.jpg"
                 alt="testimonials_image_two"
                 className="w-full"
               />
@@ -76,7 +76,7 @@ function Testimonials() {
           <div className=" flex flex-col justify-around items-center text-center font-light w-[70%] h-[90%]">
             <div className=" rounded-[50%]  w-16 h-16  overflow-hidden">
               <img
-                src="src/assets/testimonials_image_three.jpg"
+                src="../assets/testimonials_image_three.jpg"
                 alt="testimonials_image_three"
                 className=" w-full"
               />
@@ -97,7 +97,7 @@ function Testimonials() {
           <div className=" flex flex-col justify-around items-center text-center font-light w-[70%] h-[90%]">
             <div className=" rounded-[50%] w-16 h-16 overflow-hidden">
               <img
-                src="src/assets/testimonials_image_four.jpg"
+                src="../assets/testimonials_image_four.jpg"
                 alt="testimonials_image_four"
                 className=" w-full"
               />
@@ -117,34 +117,34 @@ function Testimonials() {
 
         {/* <SwiperSlide className="flex justify-center items-center h-80 ">
         <img
-          src="src/assets/benefits_image.jpg"
+          src="../assets/benefits_image.jpg"
           alt=""
           className="object-fill w-full "
         />
         B
       </SwiperSlide> */}
         {/* <SwiperSlide className="flex justify-center items-center h-80 ">
-        <img src="src/assets/test.jpg" alt="" className="object-fill w-full " />
+        <img src="../assets/test.jpg" alt="" className="object-fill w-full " />
         C
       </SwiperSlide>
       <SwiperSlide className="flex justify-center items-center h-80 ">
-        <img src="src/assets/test.jpg" alt="" className="object-fill w-full " />
+        <img src="../assets/test.jpg" alt="" className="object-fill w-full " />
         D
       </SwiperSlide>
       <SwiperSlide className="flex justify-center items-center h-80 ">
-        <img src="src/assets/test.jpg" alt="" className="object-fill w-full " />
+        <img src="../assets/test.jpg" alt="" className="object-fill w-full " />
         A
       </SwiperSlide>
       <SwiperSlide className="flex justify-center items-center h-80 ">
-        <img src="src/assets/test.jpg" alt="" className="object-fill w-full " />
+        <img src="../assets/test.jpg" alt="" className="object-fill w-full " />
         B
       </SwiperSlide>
       <SwiperSlide className="flex justify-center items-center h-80 ">
-        <img src="src/assets/test.jpg" alt="" className="object-fill w-full " />
+        <img src="../assets/test.jpg" alt="" className="object-fill w-full " />
         C
       </SwiperSlide>
       <SwiperSlide className="flex justify-center items-center h-80 ">
-        <img src="src/assets/test.jpg" alt="" className="object-fill w-full " />
+        <img src="../assets/test.jpg" alt="" className="object-fill w-full " />
         D */}
         {/* </SwiperSlide> */}
       </Swiper>

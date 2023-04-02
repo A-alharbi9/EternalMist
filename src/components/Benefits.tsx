@@ -26,7 +26,7 @@ function Benefits() {
         </div>
         <div className="rounded-[10%] lg:rounded-[50%] w-96 lg:w-80 h-80 my-20 lg:my-0 overflow-hidden">
           <img
-            src="src/assets/benefits_image.jpg"
+            src="../assets/benefits_image.jpg"
             alt="benefit_image"
             className="h-[24rem] w-full"
           />

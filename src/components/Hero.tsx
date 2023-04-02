@@ -20,8 +20,8 @@ function Hero() {
         </div>
         <div className="hidden lg:block">
           <img
-            src="src\assets\test.jpg"
-            alt="j"
+            src="../assets/hero_image.jpg"
+            alt="hero_image"
             className="w-64 h-80 mx-5 rounded-md"
           />
         </div>
