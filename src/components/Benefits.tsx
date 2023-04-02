@@ -28,7 +28,7 @@ function Benefits() {
           <img
             src="../assets/benefits_image.jpg"
             alt="benefit_image"
-            className="h-[24rem] w-full"
+            className="h-[27rem] w-full"
           />
         </div>
         <div className="flex flex-col justify-between items-center h-72 my-4">
