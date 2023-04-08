@@ -1,10 +1,10 @@
 function Hero() {
   return (
-    <div className="flex justify-center items-center gap-28 bg-gradient-to-bl from-orange-400 to-white h-screen lg:h-[45vw]">
+    <div className="flex justify-center items-center gap-28 bg-gradient-to-bl from-orange-400 to-white min-h-screen lg:h-[45vw] py-8 md:py-4">
       <div className="flex justify-center lg:justify-between lg:w-[65%]">
         <div className="flex flex-col justify-center items-center lg:items-start w-[80%] lg:w-[45%]">
           <label>Paradoxen</label>
-          <h1 className=" text-4xl lg:text-6xl font-bold">Eternal Mist</h1>
+          <h1 className=" text-3xl lg:text-6xl font-bold">Eternal Mist</h1>
           <p className="my-5 py-3 text-center lg:text-left">
             Our new perfume collection. An invigorating mix of oriental oud and
             french aroma.

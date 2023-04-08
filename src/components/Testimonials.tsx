@@ -28,7 +28,7 @@ function Testimonials() {
             slidesPerView: 2,
           },
         }}
-        className="mySwiper w-[80%] lg:w-[80%] xl:w-[65%]"
+        className="mySwiper w-[95%] md:w-[80%] xl:w-[65%]"
       >
         <SwiperSlide className="flex justify-center items-center h-[23rem]">
           <div className=" flex flex-col justify-around items-center text-center font-light w-[70%] h-[90%]">
@@ -114,39 +114,6 @@ function Testimonials() {
             </div>
           </div>
         </SwiperSlide>
-
-        {/* <SwiperSlide className="flex justify-center items-center h-80 ">
-        <img
-          src="../assets/benefits_image.jpg"
-          alt=""
-          className="object-fill w-full "
-        />
-        B
-      </SwiperSlide> */}
-        {/* <SwiperSlide className="flex justify-center items-center h-80 ">
-        <img src="../assets/test.jpg" alt="" className="object-fill w-full " />
-        C
-      </SwiperSlide>
-      <SwiperSlide className="flex justify-center items-center h-80 ">
-        <img src="../assets/test.jpg" alt="" className="object-fill w-full " />
-        D
-      </SwiperSlide>
-      <SwiperSlide className="flex justify-center items-center h-80 ">
-        <img src="../assets/test.jpg" alt="" className="object-fill w-full " />
-        A
-      </SwiperSlide>
-      <SwiperSlide className="flex justify-center items-center h-80 ">
-        <img src="../assets/test.jpg" alt="" className="object-fill w-full " />
-        B
-      </SwiperSlide>
-      <SwiperSlide className="flex justify-center items-center h-80 ">
-        <img src="../assets/test.jpg" alt="" className="object-fill w-full " />
-        C
-      </SwiperSlide>
-      <SwiperSlide className="flex justify-center items-center h-80 ">
-        <img src="../assets/test.jpg" alt="" className="object-fill w-full " />
-        D */}
-        {/* </SwiperSlide> */}
       </Swiper>
     </div>
   );

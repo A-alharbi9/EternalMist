@@ -5,7 +5,7 @@ function Features() {
   return (
     <div className=" flex flex-col justify-around items-center min-h-[90vh]">
       <h2 className="text-3xl font-semibold my-10">What sets us apart</h2>
-      <div className="flex flex-col lg:flex-row justify-around w-[80vw]">
+      <div className="flex flex-col lg:flex-row justify-around w-full md:w-[80%]">
         <img
           src="../assets/features_image.jpg"
           alt="Features_image
