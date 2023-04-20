@@ -1,8 +1,6 @@
-import React from 'react';
-
 const Buy = () => {
   return (
-    <div className="flex flex-col justify-center items-center w-full h-[60vh] md:h-[40vh] rounded-xl mt-5">
+    <div className="flex flex-col justify-center items-center w-full h-[60vh] md:h-[40vh] rounded-xl my-5 lg:my-10">
       <div className="flex flex-col justify-around items-center w-full md:w-4/5 h-5/6 bg-neutral-50 py-7">
         <p className="text-2xl font-bold text-center w-[80%] lg:w-[40%]">
           Elevate your senses, captivate your soul with Eternal Mist's unique
