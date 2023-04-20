@@ -1,6 +1,3 @@
-import React, { Dispatch, SetStateAction, useState } from 'react';
-import { AiFillCloseCircle } from 'react-icons/ai';
-
 type props = {
   toggle: boolean;
 };
