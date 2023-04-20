@@ -1,7 +1,11 @@
-import { useState } from 'react';
+import React, { Dispatch, SetStateAction, useState } from 'react';
 import { AiFillCloseCircle } from 'react-icons/ai';
 
-function MobileNav({ toggle }) {
+type props = {
+  toggle: boolean;
+};
+
+function MobileNav({ toggle }: props) {
   return (
     <div
       className={`fixed lg:hidden top-12 right-0 left-0 h-full bg-slate-100 z-50 ${

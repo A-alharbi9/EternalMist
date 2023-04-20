@@ -4,7 +4,7 @@ import MobileNav from './MobileNav';
 import { useState } from 'react';
 
 export default function Nav() {
-  const [navToggle, setNavToggle] = useState(false);
+  const [navToggle, setNavToggle] = useState<boolean>(false);
   return (
     <div className="fixed lg:relative inset-0 flex justify-end lg:justify-between lg:items-center py-2 px-1 bg-slate-100 h-12 z-50">
       <div className="hidden lg:flex justify-center w-1/3 lg:w-1/6 text-base">
