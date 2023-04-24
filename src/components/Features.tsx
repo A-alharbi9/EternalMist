@@ -5,12 +5,12 @@ function Features() {
   return (
     <div className=" flex flex-col justify-around items-center min-h-[90vh]">
       <h2 className="text-3xl font-semibold my-10">What sets us apart</h2>
-      <div className="flex flex-col lg:flex-row justify-around w-full md:w-[80%]">
+      <div className="flex flex-col lg:flex-row justify-around items-center w-full md:w-[80%] py-8 lg:py-0">
         <img
           src="../assets/features_image.jpg"
           alt="Features_image
           "
-          className="h-[80%] lg:h-80 rounded-lg"
+          className="w-[27rem] lg:w-[45%] xl:w-[35%] lg:h-[23rem] xl:h-[25rem] rounded-lg"
         />
         <div className="flex flex-col justify-around items-center h-[95%] py-6 lg:py-4 my-5 w-full lg:w-80">
           <span className=" bg-slate-200 rounded-3xl py-2 px-2">
@@ -21,7 +21,7 @@ function Features() {
           <span className=" bg-slate-200 rounded-3xl py-2 px-2 mt-4">
             <TiFeather size={15} />
           </span>
-          <p className="text-lg py-7 lg:py-0">Natural Ingredients</p>
+          <p className="text-lg py-7">Natural Ingredients</p>
         </div>
       </div>
     </div>

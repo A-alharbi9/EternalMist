@@ -18,11 +18,11 @@ function Hero() {
             </button>
           </div>
         </div>
-        <div className="hidden lg:block">
+        <div className="hidden lg:block w-[45%] pl-2 xl:w-[40%]">
           <img
             src="../assets/hero_image.jpg"
             alt="hero_image"
-            className="w-64 h-80 mx-5 rounded-md"
+            className="xl:w-[26rem] mt-4 rounded-[50%]"
           />
         </div>
       </div>
