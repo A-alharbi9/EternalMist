@@ -5,8 +5,8 @@ import 'swiper/css/navigation';
 
 function Testimonials() {
   return (
-    <div className="flex flex-col justify-around lg:justify-between items-center h-[80vh] lg:h-[65vh] my-5 lg:my-5 xl:my-0">
-      <p className="text-3xl lg:text-3xl font-bold pb-5">Testimonials</p>
+    <div className="flex flex-col justify-around lg:justify-between items-center h-[80vh] lg:h-[75vh] my-5 lg:my-5 xl:my-10">
+      <p className="text-3xl lg:text-3xl font-bold h-5 mt-8">Testimonials</p>
       <Swiper
         keyboard={{
           enabled: true,
