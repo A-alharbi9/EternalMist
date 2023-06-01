@@ -1,6 +1,6 @@
 function Stats() {
   return (
-    <div className="flex flex-col justify-center items-center w-full lg:h-full py-5 bg-slate-100">
+    <div className="flex flex-col justify-center items-center w-full lg:h-full py-5 bg-slate-100/70">
       <div className="flex flex-col lg:flex-row justify-center lg:justify-around h-[80%] lg:w-[90%] 2xl:w-[80%] py-8">
         <div className="flex flex-col justify-center items-center lg:items-start w-full lg:w-[60%] xl:w-2/5 py-8">
           <p className="font-extrabold text-3xl md:text-4xl">

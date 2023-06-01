@@ -3,7 +3,7 @@ import { TiFeather } from 'react-icons/ti';
 
 function Features() {
   return (
-    <div className=" flex flex-col justify-around items-center min-h-[90vh]">
+    <div className=" flex flex-col justify-around items-center min-h-[90vh] bg-gradient-to-t from-orange-200 via-orange-50 to-white">
       <h2 className="text-3xl font-semibold my-10">What sets us apart</h2>
       <div className="flex flex-col lg:flex-row justify-around items-center w-full md:w-[80%] py-8 lg:py-0">
         <img
