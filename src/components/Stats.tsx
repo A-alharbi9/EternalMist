@@ -41,13 +41,13 @@ function Stats() {
         <div className="relative flex flex-col justify-center items-center">
           <img
             src="../assets/stats_front_image.jpg"
-            alt=""
+            alt="stats_front_image"
             className="absolute bottom-[25%] lg:-bottom-0 xl:bottom-0 lg:right-48 xl:right-60 h-[50%] md:h-[55%] lg:h-[65%] xl:h-[65%] w-[12rem] sm:w-[18rem] md:w-[35%] lg:w-[14rem] xl:w-[85%] rounded-lg border-solid border-8 border-white"
           />
           <div className="flex justify-center w-full lg:w-[17rem] xl:w-[18rem]">
             <img
               src="../assets/stats_back_image.jpg"
-              alt=""
+              alt="stats_back_image"
               className="h-[30rem] sm:h-[45rem] md:h-[35rem] lg:h-[90%] w-[20rem] sm:w-[30rem] md:w-[30rem] lg:w-full rounded-lg mb-10"
             />
           </div>
