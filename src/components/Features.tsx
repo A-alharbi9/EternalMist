@@ -7,10 +7,10 @@ function Features() {
       <h2 className="text-3xl font-semibold my-10">What sets us apart</h2>
       <div className="flex flex-col lg:flex-row justify-around items-center w-full md:w-[80%] py-8 lg:py-0">
         <img
-          src="../assets/features_image.jpg"
-          alt="Features_image
-          "
+          src={'../assets/features_image.webp'}
+          alt="Features_image"
           className="w-[27rem] lg:w-[45%] xl:w-[35%] lg:h-[23rem] xl:h-[25rem] rounded-lg"
+          loading="lazy"
         />
         <div className="flex flex-col justify-around items-center h-[95%] py-6 lg:py-4 my-5 w-full lg:w-80">
           <span className=" bg-slate-200 rounded-3xl py-2 px-2">

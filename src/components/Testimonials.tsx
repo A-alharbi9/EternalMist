@@ -22,9 +22,10 @@ function Testimonials() {
           <div className="flex flex-col lg:flex-row justify-around items-center text-center font-light w-[70%] lg:h-[80%]">
             <div className="flex flex-col justify-center items-center w-48 lg:w-2/3 overflow-hidden">
               <img
-                src="../assets/testimonials_image_one.jpg"
+                src={'../assets/testimonials_image_one.webp'}
                 alt="testimonials_image_one"
                 className="lg:w-40 lg:h-52 rounded-xl"
+                loading="lazy"
               />
             </div>
             <div className="flex flex-col lg:justify-around lg:text-left lg:h-60 w-52 lg:w-2/3">
@@ -45,9 +46,10 @@ function Testimonials() {
           <div className="flex flex-col lg:flex-row justify-around items-center text-center font-light w-[70%] lg:h-[90%]">
             <div className="flex flex-col justify-center items-center w-48 lg:w-2/3 overflow-hidden">
               <img
-                src="../assets/testimonials_image_two.jpg"
+                src={'../assets/testimonials_image_two.webp'}
                 alt="testimonials_image_two"
                 className="lg:w-40 lg:h-52 rounded-xl"
+                loading="lazy"
               />
             </div>
             <div className="flex flex-col lg:justify-around lg:text-left lg:h-60 w-52 lg:w-2/3">
@@ -68,9 +70,10 @@ function Testimonials() {
           <div className="flex flex-col lg:flex-row justify-around items-center text-center font-light w-[70%] lg:h-[90%]">
             <div className="flex flex-col justify-center items-center w-48 lg:w-2/3 overflow-hidden">
               <img
-                src="../assets/testimonials_image_one.jpg"
-                alt="testimonials_image_one"
+                src={'../assets/testimonials_image_one.webp'}
+                alt="testimonials_image_three"
                 className="lg:w-40 lg:h-52 rounded-xl"
+                loading="lazy"
               />
             </div>
             <div className="flex flex-col lg:justify-around lg:text-left lg:h-60 w-52 lg:w-2/3">
@@ -91,9 +94,10 @@ function Testimonials() {
           <div className="flex flex-col lg:flex-row justify-around items-center text-center font-light w-[70%] lg:h-[90%]">
             <div className="flex flex-col justify-center items-center w-48 lg:w-2/3 overflow-hidden">
               <img
-                src="../assets/testimonials_image_two.jpg"
-                alt="testimonials_image_two"
+                src={'../assets/testimonials_image_two.webp'}
+                alt="testimonials_image_four"
                 className="lg:w-40 lg:h-52 rounded-xl"
+                loading="lazy"
               />
             </div>
             <div className="flex flex-col lg:justify-around lg:text-left lg:h-60 w-52 lg:w-2/3">

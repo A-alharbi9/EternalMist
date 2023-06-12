@@ -20,9 +20,10 @@ function Hero() {
         </div>
         <div className="hidden lg:block w-[45%] pl-2 xl:w-[40%]">
           <img
-            src="../assets/hero_image.jpg"
+            src="../assets/hero_image.webp"
             alt="hero_image"
             className="xl:w-[26rem] mt-4 rounded-[50%]"
+            loading="eager"
           />
         </div>
       </div>
